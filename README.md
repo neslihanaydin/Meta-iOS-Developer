@@ -7,7 +7,8 @@
 - Course 1: [Introduction to iOS Mobile Application Development](https://www.coursera.org/learn/introduction-to-ios-mobile-application-development?specialization=meta-ios-developer)
   * Module 1: Introduction to Mobile Application
   * Module 2: Simulation and Development
-  * Module 3: Building the app
+  * Module 3: [Building the app](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_1_Introduction_to_iOS_Mobile_Application_Development/Module_3_Building_the_app/video%20player)
+  * [Certificate](https://github.com/neslihanaydin/Meta-iOS-Developer/blob/main/Course_1_Introduction_to_iOS_Mobile_Application_Development/certificate.png)
 
 - Course 2: [Version Control](https://www.coursera.org/learn/introduction-to-version-control?specialization=meta-ios-developer)
   * Module 1: Software Collaboration
@@ -16,7 +17,7 @@
   * Module 4: Graded Assessment
 
 - Course 3: [Programming Fundamentals in Swift](https://www.coursera.org/learn/programming-fundamentals-swift?specialization=meta-ios-developer)
-  * Module 1: Introduction to programming in Swift
+  * Module 1: [Introduction to programming in Swift](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_3_Programming_Fundamentals_in_Swift/Module_1_Introduction_to_programming_in_Swift/)
   * Module 2: Data structures
   * Module 3: Functions and closures
   * Module 4: Structures and classes
