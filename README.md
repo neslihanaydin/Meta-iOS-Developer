@@ -19,7 +19,7 @@
 - Course 3: [Programming Fundamentals in Swift](https://www.coursera.org/learn/programming-fundamentals-swift?specialization=meta-ios-developer)
   * Module 1: [Introduction to programming in Swift](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_3_Programming_Fundamentals_in_Swift/Module_1_Introduction_to_programming_in_Swift/)
   * Module 2: [Data structures](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_3_Programming_Fundamentals_in_Swift/Module_2_Data_structures)
-  * Module 3: Functions and closures
+  * Module 3: [Functions and closures](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_3_Programming_Fundamentals_in_Swift/Module_3_Functions_and_Closures)
   * Module 4: Structures and classes
   * Module 5: Graded assessment
 
