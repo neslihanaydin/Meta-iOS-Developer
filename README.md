@@ -15,13 +15,15 @@
   * Module 2: Command Line
   * Module 3: Working with Git
   * Module 4: Graded Assessment
+  * [Certificate](https://github.com/neslihanaydin/Meta-iOS-Developer/blob/main/Course_2_Version_Control/certificate.png)
 
 - Course 3: [Programming Fundamentals in Swift](https://www.coursera.org/learn/programming-fundamentals-swift?specialization=meta-ios-developer)
   * Module 1: [Introduction to programming in Swift](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_3_Programming_Fundamentals_in_Swift/Module_1_Introduction_to_programming_in_Swift/)
   * Module 2: [Data structures](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_3_Programming_Fundamentals_in_Swift/Module_2_Data_structures)
   * Module 3: [Functions and closures](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_3_Programming_Fundamentals_in_Swift/Module_3_Functions_and_Closures)
-  * Module 4: Structures and classes
-  * Module 5: Graded assessment
+  * Module 4: [Structures and classes](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_3_Programming_Fundamentals_in_Swift/Module_4_Structures_and_Classes)
+  * Module 5: [Graded assessment](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_3_Programming_Fundamentals_in_Swift/Module_5_Graded_Assessment)
+  * [Certificate](https://github.com/neslihanaydin/Meta-iOS-Developer/blob/main/Course_3_Programming_Fundamentals_in_Swift/certificate.png)
 
 - Course 4: [Principles of UX/UI Design](https://www.coursera.org/learn/principles-of-ux-ui-design?specialization=meta-ios-developer)
   * Module 1: Introduction to UX and UI design
