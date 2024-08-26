@@ -29,7 +29,7 @@
   * Module 1: Introduction to UX and UI design
   * Module 2: Evaluating interactive design
   * Module 3: Applied Design Fundamentals
-  * Module 4: Designin your UI
+  * Module 4: Designing your UI
   * Module 5: Course summary and final assessment
 
 - Course 5: [Create the User Interface with SwiftUI](https://www.coursera.org/learn/create-the-user-interface-with-swiftui?specialization=meta-ios-developer)
