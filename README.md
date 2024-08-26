@@ -30,7 +30,8 @@
   * Module 2: Evaluating interactive design
   * Module 3: Applied Design Fundamentals
   * Module 4: Designing your UI
-  * Module 5: Course summary and final assessment
+  * Module 5: [Course summary and final assessment](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_4_Principles_of_UXUI_Design/Module_5_Final_Assessment)
+  * [Certificate](https://github.com/neslihanaydin/Meta-iOS-Developer/blob/main/Course_4_Principles_of_UXUI_Design/certificate.pdf)
 
 - Course 5: [Create the User Interface with SwiftUI](https://www.coursera.org/learn/create-the-user-interface-with-swiftui?specialization=meta-ios-developer)
   * Module 1: Getting started with SwiftUI
