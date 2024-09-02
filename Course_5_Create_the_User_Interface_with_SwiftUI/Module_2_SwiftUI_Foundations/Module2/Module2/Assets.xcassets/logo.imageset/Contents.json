@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "littlelemonlogo.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "725cbe0ca5da8536fc99c51e00d4d13628bd9745.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "littlelemonlogo 1.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
