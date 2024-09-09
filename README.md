@@ -34,10 +34,11 @@
   * [Certificate](https://github.com/neslihanaydin/Meta-iOS-Developer/blob/main/Course_4_Principles_of_UXUI_Design/certificate.pdf)
 
 - Course 5: [Create the User Interface with SwiftUI](https://www.coursera.org/learn/create-the-user-interface-with-swiftui?specialization=meta-ios-developer)
-  * Module 1: Getting started with SwiftUI
-  * Module 2: SwiftUI foundations
-  * Module 3: Advanced SwiftUI
-  * Module 4: Creating a SwiftUI app
+  * Module 1: [Getting started with SwiftUI](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_5_Create_the_User_Interface_with_SwiftUI/Module_1_Getting_Started_with_SwiftUI)
+  * Module 2: [SwiftUI foundations](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_5_Create_the_User_Interface_with_SwiftUI/Module_2_SwiftUI_Foundations)
+  * Module 3: [Advanced SwiftUI](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_5_Create_the_User_Interface_with_SwiftUI/Module_3_Advanced_SwiftUI)
+  * Module 4: [Creating a SwiftUI app](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_5_Create_the_User_Interface_with_SwiftUI/Module_4_Creating_a_SwiftUI_App)
+  * [Certificate](https://github.com/neslihanaydin/Meta-iOS-Developer/blob/main/Course_5_Create_the_User_Interface_with_SwiftUI/Certificate.pdf)
 
 - Course 6: [Advanced Programming in Swift](https://www.coursera.org/learn/advanced-programming-in-swift?specialization=meta-ios-developer)
   * Module 1: Advanced custom data types
