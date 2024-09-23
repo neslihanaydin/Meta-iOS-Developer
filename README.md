@@ -41,7 +41,7 @@
   * [Certificate](https://github.com/neslihanaydin/Meta-iOS-Developer/blob/main/Course_5_Create_the_User_Interface_with_SwiftUI/Certificate.pdf)
 
 - Course 6: [Advanced Programming in Swift](https://www.coursera.org/learn/advanced-programming-in-swift?specialization=meta-ios-developer)
-  * Module 1: [Advanced custom data types] (https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_6_Advanced_Programming_in_Swift/Module_1_Course_Advanced_Custom_Data_Types)
+  * Module 1: [Advanced custom data types](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_6_Advanced_Programming_in_Swift/Module_1_Course_Advanced_Custom_Data_Types)
   * Module 2: [Code organization](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_6_Advanced_Programming_in_Swift/Module_2_Code_Organization)
   * Module 3: [Error handling, functional programming and testing](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_6_Advanced_Programming_in_Swift/Module_3_Error_Handling_Fuctional_Programming_and_Testing)
   * Module 4: [Create a dinner menu (Filtering and sorting functionality)](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_6_Advanced_Programming_in_Swift/Module_4_Create_a_Dinner_Menu)
