@@ -9,12 +9,29 @@ import SwiftUI
 
 struct MenuOptionsView: View {
     @Environment(\.dismiss) var dismiss
+    @Binding var selectedCategory: MenuCategory?
     var menuCategories: [MenuCategory] = [.food, .drink, .dessert]
     var sortOptions = ["Most Popular", "Price $-$$$", "A-Z"]
     var menuCategoriesView: some View {
         Section {
             ForEach(menuCategories, id: \.self) { menuCategory in
-                Text(menuCategory.rawValue.capitalized)
+                HStack {
+                    Text(menuCategory.rawValue.capitalized)
+                    if selectedCategory == menuCategory {
+                        Spacer()
+                        Image(systemName: "checkmark")
+                    }
+                }
+                .contentShape(Rectangle())
+                .onTapGesture {
+                    if selectedCategory == menuCategory {
+                        selectedCategory = nil
+                    } else {
+                        selectedCategory = menuCategory
+                    }
+                    dismiss()
+                }
+                
             }
         } header: {
             HStack(alignment: .top) {

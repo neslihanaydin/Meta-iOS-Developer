@@ -29,6 +29,10 @@ struct MenuItem: Identifiable, MenuItemProtocol {
         )
     }
     
+    static func getMockMenuItems() -> [MenuItem] {
+        return getMockItems(for: .food) + getMockItems(for: .drink) + getMockItems(for: .dessert)
+    }
+    
     static func getMockItems(for type: MenuCategory) -> [MenuItem] {
         switch type {
         case .food:
