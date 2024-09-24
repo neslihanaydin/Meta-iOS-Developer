@@ -10,8 +10,9 @@ import SwiftUI
 struct MenuOptionsView: View {
     @Environment(\.dismiss) var dismiss
     @Binding var selectedCategory: MenuCategory?
+    @Binding var selectedSortOption: SortOption?
     var menuCategories: [MenuCategory] = [.food, .drink, .dessert]
-    var sortOptions = ["Most Popular", "Price $-$$$", "A-Z"]
+    var sortOptions: [SortOption] = [.alphabetical, .popularity, .price]
     var menuCategoriesView: some View {
         Section {
             ForEach(menuCategories, id: \.self) { menuCategory in
@@ -46,7 +47,22 @@ struct MenuOptionsView: View {
     var sortOptionsView: some View {
         Section {
             ForEach(sortOptions, id: \.self) { sortOption in
-                Text(sortOption)
+                HStack {
+                    Text(sortOption.rawValue)
+                    if selectedSortOption == sortOption {
+                        Spacer()
+                        Image(systemName: "checkmark")
+                    }
+                }
+                .contentShape(Rectangle())
+                .onTapGesture {
+                    if selectedSortOption == sortOption {
+                        selectedSortOption = nil
+                    } else {
+                        selectedSortOption = sortOption
+                    }
+                    dismiss()
+                }
             }
         } header: {
             HStack(alignment: .top) {

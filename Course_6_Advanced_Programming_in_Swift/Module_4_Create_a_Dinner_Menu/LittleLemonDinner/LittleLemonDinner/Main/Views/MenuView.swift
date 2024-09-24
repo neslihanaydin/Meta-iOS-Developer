@@ -93,8 +93,7 @@ struct MenuView: View {
                 //drinkMenuItemsView
                 //dessertMenuItemsView
                 ForEach(groupedMenuItems.keys.sorted(), id: \.self) { category in
-                    let headerText = category.prefix(1).uppercased() + category.lowercased().dropFirst()
-                    Section(header: Text(headerText)
+                    Section(header: Text(category.capitalized)
                         .font(.title)
                         .frame(maxWidth: .infinity,
                                alignment: .leading
@@ -134,7 +133,7 @@ struct MenuView: View {
                     }
                 }
                 .sheet(isPresented: $isPresentingOptionsView) {
-                    MenuOptionsView(selectedCategory: $viewModel.selectedCategory)
+                    MenuOptionsView(selectedCategory: $viewModel.selectedCategory, selectedSortOption: $viewModel.selectedSortOption)
                 }
         }
     }

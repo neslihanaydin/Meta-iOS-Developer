@@ -10,28 +10,15 @@ import SwiftUI
 import Combine
 
 final class MenuViewViewModel: ObservableObject {
-//    @Published var foodMenuItems: [MenuItem] = MenuItem.getMockItems(for: .food)
-//    @Published var drinkMenuItems: [MenuItem] = MenuItem.getMockItems(for: .drink)
-    //    @Published var dessertMenuItems: [MenuItem] = MenuItem.getMockItems(for: .dessert)
+
     private var allMenuItems: [MenuItem] = MenuItem.getMockMenuItems()
     private var cancellable = Set<AnyCancellable>()
     @Published var selectedCategory: MenuCategory? = nil
     @Published var filteredMenuItems: [MenuItem] = MenuItem.getMockMenuItems()
-    
-//    var foodMenuItems: [MenuItem] {
-//        filteredMenuItems(for: .food)
-//    }
-//    var drinkMenuItems: [MenuItem] {
-//        filteredMenuItems(for: .drink)
-//    }
-//    var dessertMenuItems: [MenuItem] {
-//        filteredMenuItems(for: .dessert)
-//    }
+    @Published var selectedSortOption: SortOption? = nil
+
     init() {
-        // foodMenuItems = makeFoodMenuItems()
-        // drinkMenuItems = makeDrinkMenuItems()
-        //  dessertMenuItems = makeDessertMenuItems()
-        observeSelectedCategory()
+        observeSelectedCategoryAndSortOption()
     }
     
     private func filterMenuItems(for category: MenuCategory?) -> [MenuItem] {
@@ -41,48 +28,31 @@ final class MenuViewViewModel: ObservableObject {
         return allMenuItems
     }
     
-    private func observeSelectedCategory() {
-        $selectedCategory
-            .sink { [weak self] newCategory in
+    private func sortMenuItems(_ items: [MenuItem],by sortOption: SortOption?) -> [MenuItem] {
+        if let sortOption = sortOption {
+            switch sortOption {
+            case .alphabetical:
+                return items.sorted(by: { $0.title < $1.title})
+            case .popularity:
+                return items.sorted(by: { $0.ordersCount > $1.ordersCount})
+            case .price:
+                return items.sorted(by: { $0.price < $1.price})
+            }
+        }
+        return items
+    }
+    
+    private func observeSelectedCategoryAndSortOption() {
+        Publishers.CombineLatest($selectedCategory, $selectedSortOption)
+            .sink { [weak self] newCategory, newSortOption in
                 guard let self else {
                     return
                 }
-                self.filteredMenuItems = self.filterMenuItems(for: newCategory)
+                let filteredItems = self.filterMenuItems(for: newCategory)
+                self.filteredMenuItems = self.sortMenuItems(filteredItems, by: newSortOption)
             }
             .store(in: &cancellable)
     }
-    
-    private func makeFoodMenuItems() -> [MenuItem] {
-        (1...12)
-            .map {
-                MenuItem(title: "Food \($0)", 
-                         menuCategory: .food,
-                         price: Double($0) + 5.99,
-                         ordersCount: $0 * 200,
-                         ingredients: Ingredient.allCases)
-            }
-    }
-    private func makeDrinkMenuItems() -> [MenuItem] {
-        (1...8)
-            .map {
-                MenuItem(title: "Drink \($0)", 
-                         menuCategory: .drink,
-                         price: Double($0) + 0.99,
-                         ordersCount: $0 * 100,
-                         ingredients: Ingredient.allCases)
-            }
-    }
-    private func makeDessertMenuItems() -> [MenuItem] {
-        (1...4)
-            .map {
-                MenuItem(title: "Dessert \($0)",
-                         menuCategory: .dessert, 
-                         price: Double($0) + 2.99,
-                         ordersCount: $0 * 50,
-                         ingredients: Ingredient.allCases)
-            }
-    }
-    
 }
 
 

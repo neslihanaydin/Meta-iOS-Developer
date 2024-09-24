@@ -7,8 +7,8 @@
 
 import Foundation
 
-enum SortOption {
-    case popularity
-    case price
-    case alphabetical
+enum SortOption: String {
+    case popularity = "Most Popular"
+    case price = "Price $-$$$"
+    case alphabetical = "A-Z"
 }
