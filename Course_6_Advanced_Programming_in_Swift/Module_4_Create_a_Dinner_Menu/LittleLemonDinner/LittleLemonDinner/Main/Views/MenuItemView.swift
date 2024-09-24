@@ -11,9 +11,6 @@ struct MenuItemView: View {
     @Binding var menuItem: MenuItem
     var body: some View {
         VStack {
-            //Image("LittleLemon")
-            //    .resizable()
-            //    .scaledToFit()
             Color.gray
             Text(menuItem.title)
                 .lineLimit(1)

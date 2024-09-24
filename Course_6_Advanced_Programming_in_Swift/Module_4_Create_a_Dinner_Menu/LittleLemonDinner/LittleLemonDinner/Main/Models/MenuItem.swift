@@ -74,5 +74,3 @@ struct MenuItem: Identifiable, MenuItemProtocol {
         }
     }
 }
-
-

@@ -54,5 +54,3 @@ final class MenuViewViewModel: ObservableObject {
             .store(in: &cancellable)
     }
 }
-
-
