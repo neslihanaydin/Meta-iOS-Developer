@@ -49,7 +49,7 @@
 
 - Course 7: [Working with Data in iOS](https://www.coursera.org/learn/working-with-data-in-ios?specialization=meta-ios-developer)
   * Module 1: Introduction to REST APIs
-  * Module 2: Interacting with REST APIs in Swift
+  * Module 2: [Interacting with REST APIs in Swift](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_7_Working_with_Data_in_iOS/Module_2_Interacting_with_REST_APIs_in_Swift)
   * Module 3: Data in Swift
   * Module 4: Final Project
 
