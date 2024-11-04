@@ -5,7 +5,7 @@
 
 
 ## Table of Content
-- Course 1: <a href="https://www.coursera.org/learn/introduction-to-ios-mobile-application-development?specialization=meta-ios-developer" target="_blank">Introduction to iOS Mobile Application Development</a>
+- Course 1: [Introduction to iOS Mobile Application Development](https://www.coursera.org/learn/introduction-to-ios-mobile-application-development?specialization=meta-ios-developer)
   * Module 1: Introduction to Mobile Application
   * Module 2: Simulation and Development
   * Module 3: [Building the app](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_1_Introduction_to_iOS_Mobile_Application_Development/Module_3_Building_the_app/video%20player)
