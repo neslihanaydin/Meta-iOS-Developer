@@ -52,13 +52,15 @@
   * Module 2: [Interacting with REST APIs in Swift](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_7_Working_with_Data_in_iOS/Module_2_Interacting_with_REST_APIs_in_Swift)
   * Module 3: Data in Swift
   * Module 4: Final Project
+  * [Certificate](https://github.com/neslihanaydin/Meta-iOS-Developer/blob/main/Course_7_Working_with_Data_in_iOS/certificate.pdf)
 
 - Course 8: [Mobile Development and JavaScript](https://www.coursera.org/learn/mobile-development-and-javascript?specialization=meta-ios-developer)
   * Module 1: Introduction to Javascript
   * Module 2: The building blocks of a program
   * Module 3: Programming paradigms
-  * Module 4: Testing and compatibility
-  * Module 5: Final Project
+  * Module 4: [Testing and compatibility](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_8_Mobile_Development_and_JavaScript/JEST)
+  * Module 5: [Final Project](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_8_Mobile_Development_and_JavaScript/JS-FinalProject)
+  * [Certificate](https://github.com/neslihanaydin/Meta-iOS-Developer/blob/main/Course_8_Mobile_Development_and_JavaScript/certificate.pdf)
 
 - Course 9: [React Basics](https://www.coursera.org/learn/react-basics?specialization=meta-ios-developer)
   * Module 1: React Components
