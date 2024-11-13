@@ -64,10 +64,11 @@
   * [Certificate](https://github.com/neslihanaydin/Meta-iOS-Developer/blob/main/Course_8_Mobile_Development_and_JavaScript/certificate.pdf)
 
 - Course 9: [React Basics](https://www.coursera.org/learn/react-basics?specialization=meta-ios-developer)
-  * Module 1: React Components
-  * Module 2: Data and State
-  * Module 3: Navigation, Updating and Assets in React.js
-  * Module 4: Your first React app
+  * Module 1: [React Components](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_9_React_Basics/Module_1_React_Components)
+  * Module 2: [Data and State](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_9_React_Basics/Module_2_Data_and_State)
+  * Module 3: [Navigation, Updating and Assets in React.js](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_9_React_Basics/Module_3_Navigation_Updating_and_Assests)
+  * Module 4: [Your first React app](https://github.com/neslihanaydin/Meta-iOS-Developer/tree/main/Course_9_React_Basics/Module_4_Your_First_React_App)
+  * Certificate
 
 - Course 10: [React Native](https://www.coursera.org/learn/react-native-course?specialization=meta-ios-developer)
   * Module 1: Introduction to React Native
